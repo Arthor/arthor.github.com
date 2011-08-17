@@ -15,6 +15,7 @@ min-height: 100%;
 position: relative;}
 
 #top_container {
+height: 70px;
 position: relative;}
 
 #about {
@@ -47,7 +48,7 @@ position: relative;}
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding-top: 40px;}
+  padding-top: 16px;}
 
 #top_container h1 {
   padding: 20px;}
@@ -57,13 +58,18 @@ div.clear {
 
 /*Colors*/
 #top_container {
-background: #007dff;}
+background: url(title-bg.png) #45f left top repeat-x;
+/*background: #007dff;*/}
 
 #body{
-background-color: #aad4ff;}
+background: #aad4ff;}
 
 #bottom_container {
-background: #007dff;}
+background: #007dff;
+color: #fff;}
+
+#top_container h1 {
+color: #fff;}
 
 /*Fonts*/
 html { 
@@ -73,6 +79,7 @@ font-size: 14px;}
 font-size: 100%;}
 
 p {
+padding-top: 10px;
 padding-bottom: 10px;}
 
 #news h3 {
