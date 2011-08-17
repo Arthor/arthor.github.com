@@ -2,5 +2,83 @@
 Artem Abramov
 Homepage's main css*/
 
-* {font-family: helvetica, arial, sans-serif;
-}
+/*Layout*/
+* {
+margin:0;
+padding:0;}
+
+html {
+height: 100%;}
+
+body {
+min-height: 100%;
+position: relative;}
+
+#top_container {
+position: relative;}
+
+#about {
+  float: left;
+  width: 50%;
+  margin-left: 20%;}
+
+#links {
+  float: left;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 20%;
+  margin-left: -70%;}
+
+#news {
+  float: right;
+  width: 30%;}
+
+#news ul{
+  padding-left: 20px;}
+
+#container {
+  padding-bottom: 140px;
+  width: 100%;
+  height: ;
+  overflow: hidden;}
+
+#search {
+  position: absolute;
+  bottom: 20px; right: 10px;}
+
+#bottom_container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  padding-top: 40px;}
+
+#top_container h1 {
+  padding: 20px;}
+
+div.clear {
+  clear: both;}
+
+/*Colors*/
+#top_container {
+background: #007dff;}
+
+#body{
+background-color: #aad4ff;}
+
+#bottom_container {
+background: #007dff;}
+
+/*Fonts*/
+html { 
+font-size: 16px;}
+
+#news h2 {
+font-size: 100%;}
+
+p {
+padding-bottom: 10px;}
+
+#news h3 {
+font-size: 100%}
+
