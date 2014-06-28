@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Mirror's Edge — впечатления
