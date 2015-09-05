@@ -1,13 +1,37 @@
----
-layout: default
-title: Your New Jekyll Site
----
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Artem Abramov by Arthor</title>
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Artem Abramov</h1>
+        <p>Software Designer</p>
+
+
+        <p class="view"><a href="https://github.com/Arthor">View My GitHub Profile</a></p>
+
+      </header>
+      <section>
+        <p>Hi, my name is Artem Abramov, Saint Petersburg, Russia. I develop mobile applications for iOS and Android.</p>
+
+<p>You can contact me by <a href="mailto:ar.abramov@gmail.com">ar.abramov@gmail.com</a>.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
