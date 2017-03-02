@@ -1,1 +1,7 @@
-{"name":"Artem Abramov","tagline":"Software Designer","body":"Hi, my name is Artem Abramov, Saint Petersburg, Russia. I develop mobile applications for iOS and Android.\r\n\r\nYou can contact me by ar.abramov@gmail.com.","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
+{
+  "name": "Artem Abramov",
+  "tagline": "Software Designer",
+  "body": "Hi, my name is Artem Abramov, Saint Petersburg, Russia. I develop mobile applications for iOS and Android.\r\n\r\nYou can contact me by ar.abramov@gmail.com.",
+  "google": "",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
