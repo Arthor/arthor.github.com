@@ -1,0 +1,182 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Artem Abramov
+    tagline: iOS Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: ar.abramov@gmail.com
+    phone: +358 44 4777412
+    website: nsartem.github.io #do not add http://
+    linkedin: artem-abramov
+    github: nsartem
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: 1568491/artem-abramov
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Russian
+        level: Native
+
+      - idiom: Finnish
+        level: Elementary
+
+    interests:
+      - item: Weightlifting
+      - item: Gaming
+      - item: Cycling
+
+career-profile:
+    title: About me
+    summary: |
+      I'm an experienced iOS developer with many completed projects and happy
+      employers. Skilled in native iOS developement (Objective-C / Swift),
+      though familiar with React Native and Android. My skills in iOS are improved with
+      a synergy of my knowledge in UNIX / C / assembler.
+
+education:
+    - degree: BSc in Information Technology
+      university: Metropolia UAS, Helsinki
+      time: 2017 - 2020
+
+experiences:
+    - role: iOS Developer
+      time: 2017 - 2018
+      company: Wolt Enterprises Oy, Helsinki
+      details: |
+        Development and maintenance of multiple iOS apps at Wolt, one of the most popular Finnish food delivery services.
+          - Migrated large parts of codebase to Swift 3 from Objective-C
+          - Set up and maintained CI pipeline (Travis, Fastlane)
+          - Adopted MVVM and ReactiveCocoa
+          - Maintenance of React Native based courier application
+
+    - role: iOS Developer
+      time: 2017
+      company: Hubchat Oy, Helsinki
+      details: |
+        Developed main Hubchat iOS application, a Discord-like messaging application.
+          - 100% Swift codebase
+          - Unit tests, high level of code coverage
+          - UI created fully programmatically
+
+    - role: iOS Developer
+      time: 2015-2016
+      company: EPAM Systems, Saint Petersburg
+      details: |
+        Developing mobile applications as an consultant, leading  a team of three developers, 
+        tutoring junior team members, researching and adopting new technologies 
+        (MVVM, ReactiveCocoa, RxSwift)
+
+        Projects:
+          - InHouse application for taking notes, videos and diagrams for Merck Inc.
+          - Mobile Store for L’etoile
+
+    - role: iOS Developer
+      time: 2014-2015
+      company: e-Legion, Saint Petersburg
+      details: |
+        Developing mobile applications as an consultant
+
+        Customers:
+          - Yandex.Market
+          - YOTA
+
+    - role: Software Developer
+      time: 2011-2014
+      company: Mera, Nizhny Novgorod
+      details: |
+        Started as a Unix developer: fixing bus on kernel layer, implementing drivers for VxWorks. 
+        After a year and a half moved to iOS development and participated in an iOS project for Belkin, USA.
+
+
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+
+#     papers:
+#       - title: The Art of Computer Programming
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Swift
+        level: 95%
+
+      - name: Objective-C
+        level: 90%
+
+      - name: UIKit
+        level: 70%
+
+      - name: Unix, Linux
+        level: 80%
+
+      - name: ANSI C, C98
+        level: 70%
+
+      - name: React Native
+        level: 45%
+
+      - name: HTML5 & CSS
+        level: 45%
+
+      - name: Sketch & Photoshop
+        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
