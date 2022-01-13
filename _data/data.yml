@@ -12,14 +12,14 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: ar.abramov@gmail.com
+    email: mail@artemabramov.dev
     phone: +358 44 4777412
-    website: nsartem.github.io #do not add http://
+    website: artemabramov.dev #do not add http://
     linkedin: artem-abramov
     github: nsartem
     gitlab:
     bitbucket:
-    twitter:
+    twitter: artem0x2A
     stack-overflow: 1568491/artem-abramov
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -30,6 +30,9 @@ sidebar:
 
       - idiom: Russian
         level: Native
+
+      - idiom: Swedish
+        level: Elementary
 
       - idiom: Finnish
         level: Elementary
@@ -50,9 +53,19 @@ career-profile:
 education:
     - degree: BSc in Information Technology
       university: Metropolia UAS, Helsinki
-      time: 2017 - 2020
+      time: 2017 - 2021
 
 experiences:
+    - role: iOS Developer 
+      time: 2018 - 2020
+      company: Nordea Ab, Helsinki
+      details: |
+        Development of new features and codebase maintenance of the mobile bank of Nordic's one of the largest banks.
+          - Nordea Wallet app
+          - Small team of two iOS developers implementing new features and maintaining existing codebase
+          - Prototyped and developed Spending Categorization and CO2 emission estimation features
+          - In-house Rx-like framework maintenance
+
     - role: iOS Developer
       time: 2017 - 2018
       company: Wolt Enterprises Oy, Helsinki
